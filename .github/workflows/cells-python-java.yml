@@ -22,7 +22,7 @@ jobs:
       - name: Install sitemap-generator
         run:  npm install -g sitemap-generator-cli
       - name: Generate Sitemap
-        run:  npx sitemap-generator-cli https://apireference.aspose.com/cells/python-java -f aspose-python-java-sitemap.xml -v
+        run:  npx sitemap-generator-cli https://apireference.aspose.com/cells/python-java -f aspose-cells-python-java-sitemap.xml -v
       - name: Commit files
         id: commit
         run: |
